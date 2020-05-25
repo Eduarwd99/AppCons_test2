@@ -28,6 +28,18 @@ namespace AppCons_test2
 			{
 				Console.WriteLine("{0} es mayor", b);
 			}
+			Console.WriteLine("Pulse una tecla para continuar...");
+			Console.ReadKey();
+
+			//Bucle While
+			int j = 1;
+			while (j <= 10)
+			{
+				j++;
+				Console.WriteLine("{0} Bienvenidos a Git", j);
+			}
+			Console.WriteLine("Pulse una tecla para continuar...");
+			Console.ReadKey();
 		}
 	}
 }
