@@ -50,7 +50,17 @@ namespace AppCons_test2
 			Console.ReadKey();
 
 			//Agregar bucle foreach (commit-sincronizar)
-			
+			var numeros = new List<int> { 0, 1, 1, 2, 3, 5, 8, 13 };
+			int contador = 0;
+			foreach (int element in numeros)
+			{
+				contador++;
+				Console.WriteLine($"Element #{contador}: {element}");
+			}
+			Console.WriteLine($"Number of elements: {contador}");
+			Console.WriteLine("Pulse una tecla para continuar...");
+			Console.ReadKey();
+
 			//Desde repositorio remoto como compartir su proyecto con el decente
 			//kleberposligua@hotmail.com
 		}
