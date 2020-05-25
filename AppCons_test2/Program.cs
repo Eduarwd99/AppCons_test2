@@ -14,7 +14,7 @@ namespace AppCons_test2
 		{
 			int a; a = 10;
 			int b; b= 20;
-			Console.WriteLine("El producto de {0} X {1} es: {2}" a,b,(a*b));
+			Console.WriteLine("El producto de {0} X {1} es: {2}",a,b,(a*b));
 			Console.WriteLine("Pulse una tecla para continuar...");
 			Console.ReadKey();
 
@@ -40,6 +40,19 @@ namespace AppCons_test2
 			}
 			Console.WriteLine("Pulse una tecla para continuar...");
 			Console.ReadKey();
+
+			//Agregar el bucle for (commit-sincronizar)
+			for (int i = 1; i <= 10; i++)
+            {
+				Console.WriteLine("{0} Bienvenidos a Git", i);
+			}
+			Console.WriteLine("Pulse una tecla para continuar...");
+			Console.ReadKey();
+
+			//Agregar bucle foreach (commit-sincronizar)
+			
+			//Desde repositorio remoto como compartir su proyecto con el decente
+			//kleberposligua@hotmail.com
 		}
 	}
 }
