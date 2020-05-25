@@ -8,15 +8,26 @@ namespace AppCons_test2
 {
 	static class Program
 	{
-		/// <summary>
 		/// Punto de entrada principal para la aplicación.
-		/// </summary>
 		[STAThread]
 		static void Main()
 		{
-			Application.EnableVisualStyles();
-			Application.SetCompatibleTextRenderingDefault(false);
-			Application.Run(new Form1());
+			int a; a = 10;
+			int b; b= 20;
+			Console.WriteLine("El producto de {0} X {1} es: {2}" a,b,(a*b));
+			Console.WriteLine("Pulse una tecla para continuar...");
+			Console.ReadKey();
+
+			//Condicionales
+
+			if (a > b)
+			{
+				Console.WriteLine("{0} es mayor", a);
+			}
+			else
+			{
+				Console.WriteLine("{0} es mayor", b);
+			}
 		}
 	}
 }
