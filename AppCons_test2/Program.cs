@@ -63,7 +63,7 @@ namespace AppCons_test2
 
 			//Desde repositorio remoto como compartir su proyecto con el decente
 			//kleberposligua@hotmail.com 
-
+			//Crar Manual de GitHub
 		}
 	}
 }
