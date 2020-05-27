@@ -62,7 +62,8 @@ namespace AppCons_test2
 			Console.ReadKey();
 
 			//Desde repositorio remoto como compartir su proyecto con el decente
-			//kleberposligua@hotmail.com
+			//kleberposligua@hotmail.com 
+
 		}
 	}
 }
